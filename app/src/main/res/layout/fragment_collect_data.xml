@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Collect_data">
+
+    <ImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="345dp"
+        android:layout_height="192dp"
+        android:layout_margin="16dp"
+        android:src="@drawable/data_main"
+        android:layout_gravity="center"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/xTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X Value: "
+        android:textSize="18sp"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/yTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y Value: "
+        android:textSize="18sp"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/zTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z Value: "
+        android:textSize="18sp"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="File name"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginStart="30dp"
+            android:padding="13dp"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/open_sans_semibold"
+            app:shapeAppearanceOverlay="@style/button"
+            android:text="Start" />
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:padding="13dp"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/open_sans_semibold"
+            app:shapeAppearanceOverlay="@style/button"
+            android:text="Stop" />
+
+    </LinearLayout>
+
+</LinearLayout>
