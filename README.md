@@ -1,4 +1,4 @@
-Pothole Detection using Accelerometer Sensor
+**Pothole Detection using Accelerometer Sensor **
 This Android application is designed to detect potholes using the mobile phone's accelerometer sensor. It captures data in real-time, analyzes sensor patterns to identify potholes, and visualizes the detected locations on a map.
 
 🔍 Features
